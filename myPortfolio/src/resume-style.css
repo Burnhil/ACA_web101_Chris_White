@@ -1,0 +1,21 @@
+header {
+    border-bottom: #000000 solid 3px;
+}
+
+div.highlight  {
+    padding-bottom: 10px;
+    
+}
+
+div.education {
+    border-top: black solid 1px;
+    padding-bottom: 10px;
+}
+
+div.cetificates{
+    border-bottom: black solid 2px;
+}
+
+p {
+    font-weight: bold;
+}
