@@ -2,13 +2,11 @@ header {
     border-bottom: #000000 solid 3px;
 }
 
-
 div a {
     display: inline-block;
     padding: 1em;
-    
- 
    }
+
 div.education {
     border-top: black solid 1px;
     padding-bottom: 10px;
