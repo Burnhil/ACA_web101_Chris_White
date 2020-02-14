@@ -1,5 +1,6 @@
 header{
     padding-bottom: 20px;
+    text-align: center;
 }
 
 div.greetingclockdate {
@@ -13,6 +14,18 @@ div.list{
     width: 300px;
     height: 300px;
     padding: 5px;
+}
+
+div.addthings{
+    padding: 5px;
+    text-align: center;
+}
+
+div.addtext {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 10px 30px 2px 30px ;
 }
 
 div.todolist {
@@ -33,17 +46,27 @@ div.calculator{
     grid-template-rows: 25% 25% 25% 25%;
 }
 
-div.calander {
-    background-color: lightsalmon;
-    padding: 20px;
+div.calendar{
+    background-color: lightskyblue;
+    padding: 5px;
+    padding-bottom: 7px; 
 }
 
-div.calanderblocks{
-    padding:  2px;
-    background-color: lightgrey;
+div.month{
+    text-align: center;
+    font-size: 50px;
+}
+
+div.day{
+    text-align: center;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+div.date {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 main {
