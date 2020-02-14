@@ -1,0 +1,54 @@
+header{
+    padding-bottom: 20px;
+}
+
+div.greetingclockdate {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 70% 5% 5% 5% 5% 5% 5%;
+}
+
+div.list{
+    background-color: lightskyblue;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+div.todolist {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 30px;
+
+}
+
+div.calculator{
+    width: 500px;
+    height: 600px;
+    background-color: darkslateblue;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+div.calander {
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+div.calanderblocks{
+    padding:  2px;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
