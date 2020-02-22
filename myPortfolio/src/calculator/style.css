@@ -1,0 +1,25 @@
+.results {
+    width: 94%;
+    padding: 5px;
+}
+
+.calculator {
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    border-width: 2px;
+    border-color: midnightblue;
+    border-style: solid;
+}
+
+.buttons{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.input {
+    width: 42px;
+    padding: 2px;
+}

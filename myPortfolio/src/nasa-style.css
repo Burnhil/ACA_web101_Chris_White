@@ -1,0 +1,48 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    padding-top: 425;
+    text-align: center;
+    line-height: 425px;
+    font-size: 70px;
+}
+
+main {
+    margin: 0 auto;
+    height: 450px; 
+    background-image: url(./nasaspace.jpg);
+    color: white;
+}
+
+section {
+    display: flex;
+    height: 324px; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 222, 222);
+}
+
+article{
+    width: 270px;
+    height: 274px;
+    background-color: rgb(224, 222, 222);
+    flex-direction: column;
+    font-size: 30px;
+    padding: 45px;
+}
+
+.info{
+    padding-top: 20px;
+}
+
+div{
+    font-size: 15px;
+}
+
+.textbox {
+    height: 80px;
+}
