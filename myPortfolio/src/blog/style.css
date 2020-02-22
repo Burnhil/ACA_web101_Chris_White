@@ -1,3 +1,7 @@
+body{
+    background-color: #5680e9;
+}
+
 h1 {
     width: 60%;
     margin: 5% auto;
@@ -6,14 +10,16 @@ h1 {
 main {
     width: 60%;
     margin: 5% auto;
-    background: blue;
+    background: #c1c8e4;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 article {
     margin: 1% auto;
-    border: 2px solid orange;
+    border: 2px solid #8860d0;
     width: 60%;
-    background: white;
+    background: #5ab9ea;
 }
 
 article > h3{
