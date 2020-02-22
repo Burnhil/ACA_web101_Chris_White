@@ -14,7 +14,7 @@ h1 {
 main {
     margin: 0 auto;
     height: 450px; 
-    background-image: url(./nasaspace.jpg);
+    background-image: url(../images/nasaspace.jpg);
     color: white;
 }
 
