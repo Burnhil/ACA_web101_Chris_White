@@ -1,0 +1,33 @@
+
+body{
+    background-color: slategray;
+    font-family: 'Oxanium' ;
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    background-color: #94a89a;
+    padding: 20px;
+    text-align: center;
+}
+
+.tophead{
+    font-style: italic;
+}
+
+.bottomhead{
+    
+}
+
+main{
+    margin: auto;
+    width: 80%;
+    background-color: #7a89c2;
+    padding: 20px;
+}
+
+main > div{
+    background-color: #b3c5d7;
+    padding: 10px;
+}
