@@ -16,20 +16,40 @@ div {
     }
 }
 
+@keyframes slide {
+    0%{
+        margin-left: 50%;
+
+    }
+    100%{
+        margin-left: 95%;
+    }
+}
+
 @keyframes roll1 {
     0% {
-      transform: rotate(0) scale(.5) ;
+      transform: rotate(0) scale(.5);
     }
     100% {
-      transform: rotate(-360deg) scale(.5) ;
+      transform: rotate(-360deg) scale(.5);
+    }
+}
+
+@keyframes slide1 {
+    0%{
+        margin-left: 50%;
+
+    }
+    100%{
+        margin-left: 0%;
     }
 }
 
 .odd:hover {
-    animation: roll 3s infinite;
+    animation: roll 3s infinite, slide 3s infinite;
 }
 .even:hover {
-    animation: roll1 3s infinite;
+    animation: roll1 3s infinite, slide1 3s infinite;
 }
 
 .one {
