@@ -16,33 +16,29 @@
     
     
     <main>
+
+
         <div class="list">
             <div class="addthings">To Do List</div>
         
-            <div class="addtext">
-            <div><input type="button" value="+"></div>
-            <div><input type="text" value="Add to list"></div>
-            </div>
-        <div class="todolist">
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
-            <div><input type="button" value="-"></div>
-            <div><input type="text"></div>
+            <div id="newItemButton" class="addtext"></div>
+            <form id="newItemForm" class="addtext">
+              <input type="text" id="itemField" placeholder="Enter Item Here" />
+              <input type="submit" id="add" value="add" />
+            </form>
+        <div class="todolist" id="list_section">
+            <ul>
+              <li class="item">Added List Items</li>
+            </ul>
         </div>
         </div>
-            
+
+
+
+
+
+
+
         <div class="calculator">
           <div class="results">
               <input textbox="" class="results"></intput>
@@ -118,7 +114,8 @@
     
             </div>
         </div>
-    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="../jqcode/todolist.js"></script>
       </main>
     </body>
     </html>

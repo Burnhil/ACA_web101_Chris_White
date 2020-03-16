@@ -18,7 +18,7 @@ body{
     font-size: 30px;
   }
   
-  div.list{
+  .list{
     margin: 5px;
     background-color: #b1a296;
     width: 300px;
@@ -27,19 +27,37 @@ body{
     grid-area: things;
   }
   
-  div.addthings{
+  .addthings{
     padding: 5px;
     text-align: center;
   }
   
-  div.addtext {
+  .addtext {
     background-color: lightslategray;
     display: grid;
     grid-template-columns: 20% 80%;
     padding: 10px 30px 2px 30px ;
   }
   
-  div.todolist {
+  #itemField{
+    width: 200px;
+
+  }
+
+  #add{
+    margin-left: 120px;
+    width: 40px;
+  }
+
+  #list_section{
+    width: 240px;
+  }
+
+  ul {
+    padding: 5%;
+    width: 250px;
+  }
+  .todolist {
     background-color: lightslategray;
     display: grid;
     grid-template-columns: 20% 80%;
